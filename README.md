@@ -1,6 +1,6 @@
-# Animal Sound Support Site
+# Animal Sound Identifier Support Site
 
-Static support/legal site for App Store Connect and Google Play, served via GitHub Pages.
+Static support/legal site for App Store Connect, served via GitHub Pages.
 
 Live URLs:
 
@@ -13,4 +13,10 @@ Replaces three separate, inconsistent Google Sites pages (`animalsoundidentifier
 Gmail address and, in the privacy page, an outdated claim that the app does not collect
 location data. Contact across this site is `info@appsfork.com`.
 
-Required files: `index.html`, `support.html`, `privacy.html`, `terms.html`, `styles.css`.
+The app is currently distributed on the App Store only, so subscription and billing
+text refers to Apple/Apple ID only (no Google Play mentions) to avoid confusing App
+Review. If an Android release ships later, revisit `terms.html` and `privacy.html`.
+
+Required files: `index.html`, `support.html`, `privacy.html`, `terms.html`, `styles.css`,
+`icon.png` (header logo), `favicon.png` (browser tab icon) — both derived from the app's
+real 1024x1024 icon at `assets/images/app_icon.png` in the main repo.
